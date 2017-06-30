@@ -1,0 +1,186 @@
+basic
+[270]	cv_agg's binary_logloss: 0.105112 + 0.00104527
+
+# + app_install_ratio
+[167]	cv_agg's binary_logloss: 0.10467 + 0.00101497
+0.104669941762
+
+# + creative_install_ratio
+[107]	cv_agg's binary_logloss: 0.104483 + 0.000928566
+test_loss : 0.10448296825
+
+# + user_install_num
+[170]	cv_agg's binary_logloss: 0.104104 + 0.00103143
+0.104103949348
+
+# + creative_click_install_ratio
+[104]	cv_agg's binary_logloss: 0.103175 + 0.00102513
+test_loss : 0.103175176365
+
+# + connectionTpye_position_install_ratio
+[195]	cv_agg's binary_logloss: 0.100916 + 0.00100538
+test_loss : 0.10091591595
+
+# + position_install_ratio
+[161]	cv_agg's binary_logloss: 0.100876 + 0.000959183
+test_loss : 0.100875809338
+
+# user_position_install_ratio
+[120]	cv_agg's binary_logloss: 0.100837 + 0.000979229
+test_loss : 0.100837431866
+
+# user_cate_preference
+[120]	cv_agg's binary_logloss: 0.100837 + 0.000979229
+
+# user_app_click_num_the_current_day
+[117]	cv_agg's binary_logloss: 0.100761 + 0.000980865
+
+# user_creative_install_ratio
+[124]	cv_agg's binary_logloss: 0.100732 + 0.000936122
+test_loss : 0.100731770265
+
+# camgaign_install_ratio
+[116]	cv_agg's binary_logloss: 0.100576 + 0.000908201
+test_loss : 0.10057604231
+
+# ad_install_ratio
+[158]	cv_agg's binary_logloss: 0.100544 + 0.000827262
+test_loss : 0.100543646668
+
+# -adID
+[130]	cv_agg's binary_logloss: 0.100533 + 0.000870506
+test_loss : 0.100533087647
+
+# -userID
+[113]	cv_agg's binary_logloss: 0.100568 + 0.000919574
+test_loss : 0.100567535144
+
+# - creativeID
+[111]	cv_agg's binary_logloss: 0.100542 + 0.000898398
+
+# + userID
+[134]	cv_agg's binary_logloss: 0.1005 + 0.000892263
+
+# + rank
+[177]	cv_agg's binary_logloss: 0.0998614 + 0.000855563
+test_loss : 0.0998614227035
+
+# -userID
+[186]	cv_agg's binary_logloss: 0.0998189 + 0.000846921
+
+# +app_active_hours
+[231]	cv_agg's binary_logloss: 0.0998096 + 0.000946671
+
+# + positionID_appID - appID
+[171]	cv_agg's binary_logloss: 0.0996966 + 0.000890004
+
+# app_install_num
+[171]	cv_agg's binary_logloss: 0.0996705 + 0.000831825
+
+# + position_creative_install_ratio
+[209]	cv_agg's binary_logloss: 0.099521 + 0.000826633
+('my_loss', (0.10516939352011757-6.1649138069146237e-05j))
+('my_loss', (0.10513577908724187-2.963900868708956e-05j))
+
+
+
+==========================================================================
+# bayes_smoothing alpha=5 beta = 180
+[105]	cv_agg's binary_logloss: 0.0994613 + 0.000889894
+[105]	training's binary_logloss: 0.0991873
+('my_loss', (0.10528749007742694-7.11336208490149e-06j))
+
+# bayes_smoothing alpha=3 beta = 111
+[120]	cv_agg's binary_logloss: 0.0993457 + 0.000857166
+[120]	training's binary_logloss: 0.0990539
+('my_loss', (0.10520671690242865-2.2525646602188061e-05j))
+
+# bayes_smoothing alpha=1 beta = 36
+[110]	cv_agg's binary_logloss: 0.0992918 + 0.000853314
+('my_loss', (0.10530719570330839-7.11336208490149e-06j))
+
+# bayes_smoothing alpha = 10.0 beta = 360.0
+[110]	cv_agg's binary_logloss: 0.0994782 + 0.000879319
+[110]	training's binary_logloss: 0.0992005
+('my_loss', (0.10541651045140041-9.4844827798686534e-06j))
+
+====================================================================================
+basic : 
+all samples:   2610941*45,pos/nag=0.026198
+('my_loss', (0.10516939352011757-6.1649138069146237e-05j))
+[209]	cv_agg's binary_logloss: 0.099521 + 0.000826633
+
+all samples:   5050824*45,pos/nag=0.026654
+('my_loss', (0.10432806420741284-0.0001067004312735222j))
+[370]	cv_agg's binary_logloss: 0.100116 + 0.00036843
+
+
+creative : 
+all samples:   2491873*45,pos/nag=0.026841
+('my_loss', (0.10527698890350372-2.8453448339605974e-05j))
+[153]	cv_agg's binary_logloss: 0.101545 + 0.000824995
+
+all samples:   4681367*45,pos/nag=0.027464
+('my_loss', (0.10508617572956146-4.9793534594310466e-05j))
+[165]	cv_agg's binary_logloss: 0.102981 + 0.000319482
+
+
+creative position : 
+all samples:   2481890*45,pos/nag=0.026898
+('my_loss', (0.10548774288897331-1.0670043127352234e-05j))
+[124]	cv_agg's binary_logloss: 0.101775 + 0.00082641
+
+all samples:   4646054*45,pos/nag=0.027595
+('my_loss', (0.1049811750985126-5.3350215636761196e-05j))
+[181]	cv_agg's binary_logloss: 0.103344 + 0.000232383
+
+
+
+====================================================================================
+
+positionID                                 4231.387986
+connectionType                                1.122686
+telecomsOperator                              1.590348
+age                                          20.919433
+gender                                        1.247954
+education                                     1.734057
+marriageStatus                                0.635423
+haveBaby                                     -0.449382
+camgaignID                                 3526.231336
+advertiserID                                308.608937
+appPlatform                                   1.317997
+click_app_rank                                1.135976
+click_creative_rank                           1.064548
+duplicates                                    0.000086
+sitesetID                                     0.417674
+positionType                                  0.589557
+app_first_cate                                2.571924
+app_second_cate                               3.648186
+app_install_ratio                             0.026308
+app_click_num                            508463.656055
+app_install_num                           53324.583982
+creativeID_install_num                      899.068706
+user_install_num                              5.572460
+creative_click_install_ratio                  0.025240
+creative_click_num                        25320.891475
+connectionType_position_install_ratio         0.026661
+connectionType_position_yes_num           25546.041226
+position_install_ratio                        0.025886
+position_click_num                       723563.476836
+user_position_yes_num                         0.035742
+user_position_click_num                       4.075535
+click_app_num                                 1.271953
+user_install_ratio                            0.020695
+user_click_num                                4.269289
+camgaignID_install_ratio                      0.024766
+camgaignID_click_num                      42622.080807
+ad_install_ratio                              0.025135
+adID_click_num                            31565.088112
+app_active_hours                             23.690302
+positionID_appID_install_ratio                0.025518
+positionID_appID_click_num                57195.492893
+positionID_app_yes_num                     2377.533973
+positionID_creativeID_install_ratio           0.025756
+positionID_creativeID_click_num           11197.868039
+positionID_creativeID_yes_num               444.252902
+dtype: float64

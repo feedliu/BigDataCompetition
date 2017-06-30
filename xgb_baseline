@@ -1,0 +1,67 @@
+# basic
+[49]	train-logloss:0.100997	eval-logloss:0.101727
+
+
+# actions['subtract'] = actions['positionID_creativeID_install_ratio'] - actions['position_install_ratio']
+[49]	train-logloss:0.101006	eval-logloss:0.101731
+
+actions['subtract'] = actions['positionID_appID_install_ratio'] - actions['position_install_ratio']
+[49]	train-logloss:0.100961	eval-logloss:0.101686
+
+
+
+
+
+[0]	train-logloss:0.607193	eval-logloss:0.607258
+Multiple eval metrics have been passed: 'eval-logloss' will be used for early stopping.
+
+Will train until eval-logloss hasn't improved in 10 rounds.
+[1]	train-logloss:0.53685	eval-logloss:0.536965
+[2]	train-logloss:0.478338	eval-logloss:0.478495
+[3]	train-logloss:0.42904	eval-logloss:0.429238
+[4]	train-logloss:0.387116	eval-logloss:0.387352
+[5]	train-logloss:0.351195	eval-logloss:0.351463
+[6]	train-logloss:0.320232	eval-logloss:0.320533
+[7]	train-logloss:0.293415	eval-logloss:0.293743
+[8]	train-logloss:0.270083	eval-logloss:0.270436
+[9]	train-logloss:0.24973	eval-logloss:0.250105
+[10]	train-logloss:0.231928	eval-logloss:0.232318
+[11]	train-logloss:0.216324	eval-logloss:0.216735
+[12]	train-logloss:0.202622	eval-logloss:0.203053
+[13]	train-logloss:0.190566	eval-logloss:0.191016
+[14]	train-logloss:0.17996	eval-logloss:0.180425
+[15]	train-logloss:0.170607	eval-logloss:0.171088
+[16]	train-logloss:0.162365	eval-logloss:0.162863
+[17]	train-logloss:0.155093	eval-logloss:0.155603
+[18]	train-logloss:0.148676	eval-logloss:0.149196
+[19]	train-logloss:0.143013	eval-logloss:0.143545
+[20]	train-logloss:0.138015	eval-logloss:0.138558
+[21]	train-logloss:0.1336	eval-logloss:0.134155
+[22]	train-logloss:0.129705	eval-logloss:0.130269
+[23]	train-logloss:0.126256	eval-logloss:0.126831
+[24]	train-logloss:0.123218	eval-logloss:0.123803
+[25]	train-logloss:0.120527	eval-logloss:0.121121
+[26]	train-logloss:0.118155	eval-logloss:0.118752
+[27]	train-logloss:0.116058	eval-logloss:0.116657
+[28]	train-logloss:0.114198	eval-logloss:0.114797
+[29]	train-logloss:0.112552	eval-logloss:0.113167
+[30]	train-logloss:0.111098	eval-logloss:0.111718
+[31]	train-logloss:0.109825	eval-logloss:0.110453
+[32]	train-logloss:0.108699	eval-logloss:0.109336
+[33]	train-logloss:0.107706	eval-logloss:0.108346
+[34]	train-logloss:0.106824	eval-logloss:0.107473
+[35]	train-logloss:0.106052	eval-logloss:0.10671
+[36]	train-logloss:0.105357	eval-logloss:0.106022
+[37]	train-logloss:0.104747	eval-logloss:0.105422
+[38]	train-logloss:0.104211	eval-logloss:0.104891
+[39]	train-logloss:0.103729	eval-logloss:0.104415
+[40]	train-logloss:0.103289	eval-logloss:0.103976
+[41]	train-logloss:0.102908	eval-logloss:0.103602
+[42]	train-logloss:0.102564	eval-logloss:0.103263
+[43]	train-logloss:0.102275	eval-logloss:0.102978
+[44]	train-logloss:0.101992	eval-logloss:0.102695
+[45]	train-logloss:0.10174	eval-logloss:0.102452
+[46]	train-logloss:0.101523	eval-logloss:0.102241
+[47]	train-logloss:0.101315	eval-logloss:0.102039
+[48]	train-logloss:0.101129	eval-logloss:0.101851
+[49]	train-logloss:0.100961	eval-logloss:0.101686
